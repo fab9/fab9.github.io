@@ -6,7 +6,7 @@ author: "Fabi"
 ---
 _Update: I moved this blog from Octopress to Jekyll hosted on GitHub on Sep 2014._
 
-##Getting Started
+## Getting Started
 
 1. Check your `ruby --version`, it must be at least 1.9.3.
 
@@ -30,10 +30,10 @@ $ bundle install
 $ rake install
 ```
 
-##Blog Configuration
+## Blog Configuration
 I modified 4 sections of the `_config.yml`  file as shown below.
 
-####Section 1: At the very top, contains your blog's info
+#### Section 1: At the very top, contains your blog's info
 ```
 url: http://yoursite.com #=> http://fab9.net
 title: My Octopress Blog #=> fab9
@@ -43,7 +43,7 @@ simple_search: https://www.google.com/search
 description:
 ```
 
-####Section 2: Permalinks, Paths and More
+#### Section 2: Permalinks, Paths and More
 ```
 root: /
 permalink: /blog/:year/:month/:day/:title/ #=> /blog/:year/:month/:day
@@ -54,7 +54,7 @@ code_dir: downloads/code
 category_dir: blog/categories #=> categories
 ```
 
-####Section 3: Asides
+#### Section 3: Asides
 ```
 default_asides:
   [asides/recent_posts.html,
@@ -66,15 +66,13 @@ default_asides:
    asides/github.html]
 ```
 
-####Section 4: 3rd Party Settings
+#### Section 4: 3rd Party Settings
 Pretty self-explanatory. Checkout the [docs](http://octopress.org/docs/configuring/) for more details.
-
----
 
 In your `.gitignore` remove the line `public`.
 Because Octopress compiles its generated content, i.e. static version of your site, into the `public` directory, we need to make sure everything in this dir is included in our git repo.
 
-##Get Ready to Write!
+## Get Ready to Write!
 ```
 $ rake new_post["title"] # Creates post
 ```
@@ -102,14 +100,14 @@ Here you can do a few things. For example:
 - When working on a draft add `published: false`.
 - Add one category  `categories: heroku`, or many: `categories: [heroku, git, octopress]`
 
-##Octopress + Heroku
+## Octopress + Heroku
 
 ```
 $ gem install heroku
 $ heroku login
 ```
 
-###Pointing your custom domain to Heroku
+### Pointing your custom domain to Heroku
 Check out the docs at [Heroku](http://devcenter.heroku.com/articles/custom-domains).
 Set your root domain, your-domain.com, to redirect to www.your domain.com.
 
@@ -118,12 +116,12 @@ Confirm that your DNS is configured correctly with the `host` command:
 $ host www.example.com // www.example.com is an alias for example.herokuapp.com
 ```
 
-##Deploy
+## Deploy
 ```
  $ git push heroku master
 ```
 
-####Further Reading
+#### Further Reading
 
  - [Octopress Documentation](http://octopress.org/docs/)
  - http://www.jackiejohnston.us/blog/setting-up-an-octopress-blog-on-heroku/
