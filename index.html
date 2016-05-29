@@ -9,8 +9,9 @@ layout: default
     <ul class="post-list">
         {% for post in site.posts %}
         <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <time itemprop="dateCreated" datetime="{{ post.date }}">{{ post.date | date:"%B %-d, %Y" }}</time>
+            <time class="post-meta" itemprop="dateCreated" datetime="{{ post.date }}">{{ post.date | date:"%b %-d, %Y"
+                }}
+            </time>
 
             <h2>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

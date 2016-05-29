@@ -2,6 +2,7 @@
 layout: post
 title: "Building a Jekyll Theme"
 date: 2014-09-25
+author: "Fabi"
 ---
 
 ## Jekyll theme

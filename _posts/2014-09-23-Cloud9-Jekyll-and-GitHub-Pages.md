@@ -2,6 +2,7 @@
 layout: post
 title: "Cloud9, Jekyll and GitHub Pages"
 date: 2014-09-23
+author: "Fabi"
 ---
 
 ## Misc notes
@@ -13,7 +14,7 @@ an IDE, connects to your github acct
 http://jekyllrb.com/docs/home/
 
 
-In Cloud9 `cramdown` is the markdown gem.
+In Cloud9 `cramdown` is the markdown gem.  
 `gem install jekyll`
 
 To serve locally (using Terminal) it would be `jekyll serve` but in C9 you do: `jekyll build` > _Run with... Apache httpd (PHP, HTML)_ > visit your site with the link it gives you.

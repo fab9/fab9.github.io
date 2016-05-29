@@ -2,6 +2,7 @@
 layout: post
 title: "Setting up a Blog with Octopress on Heroku"
 date: 2014-07-12
+author: "Fabi"
 ---
 _Update: I moved this blog from Octopress to Jekyll hosted on GitHub on Sep 2014._
 
