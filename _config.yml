@@ -9,7 +9,7 @@
 
 
 # Site settings
-title: El blogazo
+title: El Blogazo
 email: rorou192@gmail.com
 description: "Fabi's dev blog"
 baseurl: "" # the subpath of your site, e.g. /blog
