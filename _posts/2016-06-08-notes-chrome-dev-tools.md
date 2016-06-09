@@ -5,9 +5,9 @@ date: 2016-06-08
 author: "Fabi"
 ---
 
-Chrome's DevTools are awesome, I use certain features everyday but others are a mystery to me. It's time to learn new tricks, and what better way than watching  'Frontend Masters' (looove them), '[Mastering Chrome DevTools](http://livestream.com/accounts/4894689/events/5453917)' workshop. 
+Chrome's DevTools are awesome, I use certain features everyday but others are a mystery to me. It's time to learn new tricks, and what better way than watching  Frontend Masters' (looove them) '[Mastering Chrome DevTools](http://livestream.com/accounts/4894689/events/5453917)' workshop. 
 
-The instructor, [Jon Kuperman](https://github.com/jkup) divided  his material into 3 parts: Editing, Debugging and Profiling, which span 6 videos total.
+ [Jon Kuperman](https://github.com/jkup) (instructor) divided  his material into 3 parts: Editing, Debugging and Profiling - spanning 6 videos total.
 
 Here's my notes from video #1:
 
